@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import  testData  from './loginData.json';
+import  testData  from './loginData.json'  assert { type: 'json' };
 
 test.describe("Data driven login test", () => {
     for (const data of testData) {
